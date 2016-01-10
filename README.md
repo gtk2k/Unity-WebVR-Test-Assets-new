@@ -15,8 +15,8 @@ WebGLTemplatesフォルダーを、
 PrefabsフォルダーにはWebVRCameraSetというPrefabがありますので、このカメラを適当に配置し、WebVRCameraSetにScriptsフォルダー内にあるStereoCamera.csをアタッチします。
 
 あとは、WebGLでWebVRテンプレートを使ってビルドを行い、出力されたindex.htmlにアクセスすればできます。
+組み込みの出力ページはモバイルではランドスケープ(横画面)固定にしています。
 
-ライセンスはフリーです。自由に使ってください。
 
 ##WebVRを有効にする
 Polyfillライブラリは使用していないため、モバイルでは実質WebVR APIを実装した[ChromePublic_Cardboard](https://drive.google.com/folderview?id=0BzudLt22BqGRbW9WTHMtOWMzNjQ&usp=sharing#list)のみ対応。
@@ -37,3 +37,6 @@ Galaxy系などの機種ではChromeではデフォでWebGLが使用できない
 Note4で試してみたら"十分なメモリが確保できなかった"といった感じのメッセージが頻発。
 メッセージが出ずに起動できたら今度はフルスクリーン表示時に右側しか表示されず、ほぼ動作は無理という結果となりました。
 nexsus5 nexsus6では一応動作しました。ただ、あのバレルディストーションと呼ばれる歪みがかかった表示がされません。(前バージョンのChrome WebVR版では歪み表示されたんですけどね)
+
+##ライセンス
+ライセンスはフリーです。自由に使ってください。
